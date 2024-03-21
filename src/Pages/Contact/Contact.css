@@ -1,0 +1,1225 @@
+/* Hero */
+/* Hero */
+/* xs */
+@media (min-width: 275px) {
+  .heroMobile {
+    max-width: 245px;
+
+    text-align: center;
+  }
+  .serviceText {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* fact cards */
+  /* fact cards */
+  .factTextNumber {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: Outfit;
+    font-weight: 500;
+  }
+  .factTextDescription {
+    color: rgb(255, 255, 255);
+    font-size: 5px;
+    font-family: Outfit;
+    font-weight: 600;
+  }
+  .factImgHeight {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+  .displayFacts {
+    display: flex;
+    padding-bottom: 0;
+  }
+
+  .imgBackground {
+    height: 70vh;
+  }
+  .heroTextSub {
+    font-size: 15px;
+    color: #2406e9;
+  }
+  .heroTextMain {
+    font-size: 24px;
+    line-height: 25px;
+  }
+  .heroTextSub1 {
+    font-size: 18px;
+  }
+  .heroTextBody {
+    font-size: 10px;
+  }
+  .displayClass {
+    display: none;
+  }
+  .gridClass {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    text-align: center;
+  }
+  .heroButton {
+    justify-content: center;
+    display: block;
+  }
+  .factCardsGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.3rem;
+  }
+  .aboutGrid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    text-align: center;
+  }
+  .header1 {
+    font-size: 20px;
+  }
+  .navText {
+    font-size: 15px;
+  }
+  .buttonText {
+    font-size: 15px;
+  }
+  .buttonText {
+    font-size: 15px;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .heroMobile {
+    max-width: 405px;
+
+    text-align: center;
+  }
+  .serviceText {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  /* fact cards */
+  .factTextNumber {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 700;
+  }
+  .factTextDescription {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: Outfit;
+    font-weight: 600;
+  }
+  .factImgHeight {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .displayFacts {
+    display: flex;
+    padding-bottom: 0;
+  }
+  .imgBackground {
+    height: 70vh;
+  }
+  .heroTextSub {
+    font-size: 30px;
+    color: #2406e9;
+  }
+  .heroTextMain {
+    font-size: 38px;
+    line-height: 25px;
+  }
+  .heroTextSub1 {
+    font-size: 28px;
+  }
+  .heroTextBody {
+    font-size: 18px;
+  }
+  .displayClass {
+    display: none;
+  }
+  .gridClass {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    text-align: center;
+  }
+  .heroButton {
+    justify-content: center;
+
+    display: flex;
+  }
+  .factCardsGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+  .aboutGrid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    text-align: center;
+  }
+  .header1 {
+    font-size: 20px;
+  }
+  .navText {
+    font-size: 15px;
+  }
+  .buttonText {
+    font-size: 15px;
+  }
+  .buttonText {
+    font-size: 15px;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .formPadding {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .heroMobile {
+    max-width: 540px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .heroMobile {
+    max-width: 660px;
+  }
+  .imgBackground {
+    height: 80vh;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .heroMobile {
+    max-width: 720px;
+  }
+  .serviceText {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .factTextNumber {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Outfit;
+    font-weight: 700;
+  }
+  .factTextDescription {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Outfit;
+    font-weight: 600;
+  }
+  .factImgHeight {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .heroTextSub {
+    font-size: 30px;
+    color: #2406e9;
+  }
+  .heroTextMain {
+    font-size: 38px;
+    line-height: 25px;
+  }
+  .heroTextSub1 {
+    font-size: 32px;
+  }
+  .heroTextBody {
+    font-size: 18px;
+  }
+  .displayClass {
+    display: none;
+  }
+  .gridClass {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    text-align: center;
+  }
+  .heroButton {
+    justify-content: center;
+  }
+  .factCardsGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+  .aboutGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    text-align: left;
+  }
+  .blogGrid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .header1 {
+    font-size: 20px;
+  }
+  .navText {
+    font-size: 15px;
+  }
+  .buttonText {
+    font-size: 15px;
+  }
+  .buttonText {
+    font-size: 15px;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .formPadding {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .heroMobile {
+    max-width: 1200px;
+  }
+  /* fact cards */
+  .factTextNumber {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Outfit;
+    font-weight: 700;
+  }
+  .factTextDescription {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 600;
+    word-wrap: break-word;
+    letter-spacing: 1.6px;
+  }
+  .factImgHeight {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .heroTextSub {
+    font-size: 60px;
+    color: #2406e9;
+  }
+  .heroTextMain {
+    font-size: 96px;
+    line-height: 50px;
+  }
+  .heroTextSub1 {
+    font-size: 48px;
+    line-height: 66px;
+  }
+  .heroTextBody {
+    font-size: 26px;
+  }
+  .displayClass {
+    display: flex;
+  }
+  .gridClass {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    text-align: left;
+  }
+  .heroButton {
+    justify-content: left;
+  }
+  .factCardsGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+  .blogGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .header1 {
+    font-size: 30px;
+  }
+  .buttonText {
+    font-size: 20px;
+    height: 3rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .effect3 {
+    width: 200px;
+    height: 638px;
+    background: rgba(155, 214, 215, 0.5);
+    border-radius: 9999px;
+    filter: blur(300px);
+    position: absolute;
+    right: 0%;
+    z-index: -1;
+    overflow: hidden;
+  }
+
+  .effect4 {
+    width: 664px;
+    height: 638px;
+    background: #8080d7;
+    border-radius: 9999px;
+    filter: blur(300px);
+    position: absolute;
+    top: -80%;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .effect5 {
+    width: 664px;
+    height: 638px;
+    background: #8080d7;
+    border-radius: 9999px;
+    filter: blur(300px);
+    position: absolute;
+    top: 110%;
+    left: -40%;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .effect6 {
+    width: 364px;
+    height: 338px;
+    background: rgba(155, 214, 215, 0.5);
+    border-radius: 9999px;
+    filter: blur(300px);
+    position: absolute;
+    top: 200%;
+    right: 00%;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .heroMobile {
+    max-width: 1400px;
+  }
+  .heroTextSub {
+    font-size: 66px;
+    line-height: 96px;
+    color: #2406e9;
+  }
+  .heroTextMain {
+    font-size: 96px;
+    line-height: 96px;
+  }
+  .heroTextSub1 {
+    font-size: 54px;
+    line-height: 96px;
+  }
+  .heroTextBody {
+    font-size: 26px;
+  }
+  .header1 {
+    font-size: 30px;
+  }
+  .navText {
+    font-size: 20px;
+  }
+  .buttonText {
+    font-size: 20px;
+    height: 3rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+.conMobile {
+  /* position: relative; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.heroMobile {
+  /* position: relative; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  border-radius: 2px;
+
+  border-style: solid;
+}
+
+.module-inside {
+  /* This will make it stack on top of the ::before */
+  position: relative;
+}
+.grid {
+  align-items: flex-end;
+}
+
+.fullBackground {
+  background: #f1f4f1;
+  overflow: hidden;
+  position: relative; /* must declare position of parent */
+}
+
+.ElementContainer {
+  position: relative; /* must declare position of parent */
+  width: 500px;
+  height: 200px; /* since child is removed from DOM, it will be 0 height unless declared explicitly */
+  overflow: hidden;
+}
+
+.Element {
+  width: 200%;
+  position: absolute;
+  top: 0; /* always declare both X & Y */
+  left: -25%; /* can be any negative % you want, this is just an example */
+}
+
+.effect {
+  width: 500px;
+  height: 500px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(167 243 208 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.5;
+  border-radius: 9999px;
+  --tw-blur: blur(300px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  position: absolute;
+  top: -60%;
+}
+
+.header1 {
+  color: white;
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  word-wrap: break-word;
+}
+
+.heroTextMain {
+  color: white;
+
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  word-wrap: break-word;
+}
+.heroTextSub {
+  color: white;
+
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  word-wrap: break-word;
+}
+.heroTextSub1 {
+  color: white;
+
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  word-wrap: break-word;
+}
+
+.heroTextSub2 {
+  color: white;
+  font-size: 60px;
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  word-wrap: break-word;
+}
+
+.formBackground {
+  background: #3c5341;
+  border-radius: 20px;
+}
+/* .formBackground {
+    background: linear-gradient(282deg, #095253 0%, #6612ee 100%);
+  } */
+/* .factTextDescription {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Outfit;
+    font-weight: 600;
+    word-wrap: break-word;
+    letter-spacing: 1.6px;
+  }
+  
+  .factTextNumber {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-family: Outfit;
+    font-weight: 700;
+  } */
+
+.heroTextBody {
+  color: white;
+  font-family: Outfit;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+
+.buttonText {
+  color: white;
+
+  font-family: Outfit;
+  font-weight: 700;
+
+  line-height: 27.5px;
+  letter-spacing: 1.6px;
+  word-wrap: break-word;
+}
+
+.navText {
+  color: white;
+
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 27.5px;
+  word-wrap: break-word;
+}
+
+.effect2 {
+  width: 500px;
+  height: 500px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(129 140 248 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.5;
+  border-radius: 9999px;
+  --tw-blur: blur(300px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  position: absolute;
+  right: -30%;
+  overflow: hidden;
+}
+
+.position {
+  position: absolute;
+  top: 1000;
+  right: -400px;
+
+  overflow: hidden;
+}
+.position2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.imgBackground {
+  /* Replace 'your-image-url.jpg' with the actual path or URL of your image */ /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+
+  background-size: cover; /* This property ensures that the background image covers the entire container */
+  background-position: center; /* Center the background image within the container */
+  width: 100%; /* Set the width of your container */
+  height: 80vh;
+  /* Add other styles as needed */
+}
+
+.imgBackgroundtest {
+  /* Replace 'your-image-url.jpg' with the actual path or URL of your image */ /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* This property ensures that the background image covers the entire container */
+  background-position: center; /* Center the background image within the container */
+  width: 100%; /* Set the width of your container */
+  background-color: rgba(32, 108, 223, 0.671);
+  background-blend-mode: darken;
+  /* Add other styles as needed */
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(152, 66, 211, 0.63);
+}
+.imgBackgroundFilter {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Attempt at video */
+.imgBackground1 {
+  /* Replace 'your-image-url.jpg' with the actual path or URL of your image */ /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* This property ensures that the background image covers the entire container */
+  background-position: center; /* Center the background image within the container */
+  width: 100%; /* Set the width of your container */
+  /* background-color: rgb(0, 102, 255);
+    background-blend-mode: darken; */
+  /* Add other styles as needed */
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+* Header */ video {
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.headerbg {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.2;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+  z-index: 1;
+  color: white;
+  font-size: 64px;
+}
+.opened {
+  transform: translateX(0%) !important;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh; /* Adjust as needed */
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: #fff; /* Adjust text color as needed */
+  text-align: center;
+  padding: 20px;
+}
+
+.btn2 {
+  font-size: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+
+  font-weight: 500;
+  z-index: 1;
+  background-color: #000000;
+  padding: 12px 25px;
+}
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #8000f8fd 0,
+    #34023a 100%
+  );
+  border: 0;
+  border-radius: 6px;
+
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #f7f7f7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* filter */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #5b21b6, #1e40af);
+  color: #fff;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button {
+  border: 1px solid #000;
+  background: transparent;
+  margin: 5px 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  padding: 4px 10px;
+  min-width: 100px;
+  min-height: 50px;
+  margin: 4px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category {
+  color: #64748b;
+  font-size: 10px;
+}
+
+.active {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.height2 {
+  height: 60vh;
+}
+/* .container {
+    height: 50vh;
+  } */
+
+body {
+  background: #f1f4f1;
+  color: whitesmoke;
+}
+.contentbg {
+  background-color: #121212;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.submit-btn {
+  padding: 15px 50px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+/*  background-color: rgba(207, 203, 203, 0.473); */
+.container2 {
+  /* Replace 'your-image-url.jpg' with the actual path or URL of your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.factCards {
+  background: rgba(0, 245.13, 255, 0.52);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.heroText {
+  text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.877);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* container code */
+.containerCustom {
+  width: 100%; /* Full width of the screen */
+  background-color: blue;
+  height: 70vh; /* 70% of the viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* NavBar Colors */
+
+.navBarColor {
+  color: #00f7ff;
+}
+
+.navBarColorHover:hover {
+  color: #00f7ff;
+}
+
+.navBarColorBtn {
+  background-color: #00e1ff9c;
+}
+.navBarColorBtn:hover {
+  background-color: #00a5bb9c;
+}
+.navBarColorText {
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 10%; /* Adjust this percentage to your liking */
+  flex: 1 1 auto;
+}
+
+.personImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This property ensures the image covers the entire container */
+  border-radius: 20%;
+  overflow: hidden;
+
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+img {
+  -webkit-filter: drop-shadow(5px 5px 5px #000000);
+  filter: drop-shadow(1px 2px 1px #000000);
+}
+.imgOverLay {
+  --tw-bg-opacity: 1;
+  background-color: rgb(167 243 208 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.5;
+  border-radius: 9999px;
+  backdrop-filter: blur(200px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  background-color: #00dbeb;
+  z-index: 2;
+}
+.circleOverlay {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  /* Adjust this percentage to control the height of the circle */
+  border-radius: 15%;
+  overflow: hidden;
+  background-color: #07a2fc17;
+  box-shadow: rgba(0, 0, 0, 0) 0px 24px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* CSS */
+.button-nav {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #2406e9 50%, #00dbeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-nav:active,
+.button-nav:hover {
+  outline: 0;
+}
+
+.button-nav span {
+  background-color: rgba(0, 0, 0, 0.945);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-nav:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-nav {
+    font-size: 18px;
+    min-width: 20px;
+  }
+}
+
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #a202ff 50%, #a100eb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgb(152, 65, 252) 0 3px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(0, 0, 0);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* home screen button */
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #ffffffe8;
+  box-shadow: 0 0 0 2px #efefef;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 24px;
+  fill: #efefef;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 16px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #efefef;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #020202;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  fill: #020202;
+}
+
+.animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
