@@ -206,7 +206,7 @@
     border-radius: 30px;
   }
   .containerCon1 {
-    max-width: 1850px;
+    max-width: 1750px;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 100px;
@@ -238,7 +238,7 @@
 
 /* CSS */
 .button-1 {
-  background-color: #3c5341;
+  background-color: #131313;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -247,14 +247,14 @@
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
-  height: 40px;
+  height: 50px;
   line-height: 20px;
   list-style: none;
   margin: 0;
   outline: none;
-  padding: 10px 16px;
+  padding: 10px 46px;
   position: relative;
   text-align: center;
   text-decoration: none;
