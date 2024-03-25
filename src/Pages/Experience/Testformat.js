@@ -1,6 +1,6 @@
 import React from "react";
 
-function Experience() {
+function Testformat() {
   return (
     <div className="textColor">
       <div className="containerCon1  text-black mx-auto">
@@ -138,4 +138,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Testformat;

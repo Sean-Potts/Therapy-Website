@@ -2,24 +2,21 @@ import React from "react";
 
 function About() {
   return (
-    <div>
-      <div className="containerCon textColor swatch_2  ">
+    <div className="bg-[#F1F4F1]">
+      <div className="containerCon1 textColor mx-auto">
         {/* <h1 class=" text-center text-5xl playfair2 mb-4 ">About</h1> */}
-        <div class="grid grid-cols-3 gap-4 place-content-start">
-          <div class=" col-span-1 mb-auto mt-6">
+        <h1 class=" text-center text-5xl playfair2 text-[#131f35] mb-10">
+          About
+        </h1>
+        <div class="grid grid-cols-2 gap-4 place-content-center">
+          <div class=" col-span-1 mt-6">
             {" "}
-            <img src="./sophia.jpg" className="rounded-3xl mt-20" />
-            <p class="text-black text-left playfair3 text-[20px] pl-3">
-              physiotherapist Adler Student{" "}
-            </p>
-            <p class="text-black text-left playfair4 text-[18px] pl-3">
-              physiotherapist Adler Student{" "}
-            </p>
+            <img src="./sophia.jpg" className="rounded-3xl aboutImage img1 " />
           </div>
-          <div class="col-span-2 text-left h-full pl-24   ">
-            <h1 class=" text-center text-5xl playfair2 text-[#131f35] mb-10">
-              About
-            </h1>
+          <div class="col-span-1 text-left h-full pl-24  pt-20 ">
+            <p class=" bodyTextAbout pb-10">
+              Hi there! I’m Sophia, registered physiotherapist student at adler
+            </p>
             <p class=" bodyText playfair text-black">
               The T4 meaning primarily relates to your status as an employee,
               and The T4 slip enlists information about the employees’ income
@@ -44,6 +41,10 @@ function About() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="flex md:flex md:flex-grow flex-row justify-end pr-[4rem]">
+        {" "}
+        <img src="./adler.jpeg" className="rounded-full h-32 mb-10 " />
       </div>
     </div>
   );

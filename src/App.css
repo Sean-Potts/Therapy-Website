@@ -210,7 +210,7 @@
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 100px;
-    padding-bottom: 100px;
+
     border-radius: 30px;
   }
 }
@@ -226,6 +226,14 @@
 
 .textColor {
   color: #3c5341;
+}
+
+.bodyTextAbout {
+  color: black;
+  font-size: 32px;
+  font-family: "Playfair Display";
+  font-weight: "500";
+  letter-spacing: 2px;
 }
 
 /* CSS */
