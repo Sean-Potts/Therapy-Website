@@ -2,11 +2,11 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="bg-[#BAC9BA] textColor pt-20 pb-10">
-      <div className="containerCon  text-black mb-10">
+    <div className="bg-[] textColor pt-0 pb-0">
+      <div className="containerCon1  text-black mb-">
         <div class="grid grid-cols-2 gap-4 place-content-start">
           <div class=" col-span-1 ">
-            <h1 class="text-[#242424] text-center headerText poppins-regular ">
+            <h1 class="text-[#242424] text-center headerText poppins-regular mb-5 ">
               Work Experience
             </h1>
             <div class="grid grid-rows-3">
@@ -40,7 +40,7 @@ function Experience() {
             </div>
           </div>
           <div class="col-span-1 t ">
-            <h1 class="text-[#242424] text-center headerText poppins-regular ">
+            <h1 class="text-[#242424] text-center headerText poppins-regular mb-5 ">
               Awards & Recognition
             </h1>
             <div class="grid grid-rows-3">

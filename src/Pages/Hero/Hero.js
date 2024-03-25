@@ -2,13 +2,18 @@ import React from "react";
 import "./Hero.css";
 function Hero() {
   return (
-    <div>
+    <div className="HeroContainer">
       <div>
-        <video className="video" src="/hero.mp4" loop autoPlay muted>
+        <video className="back-video" src="/hero.mp4" loop autoPlay muted>
           {" "}
-          <div className="text-white">Ready for therapy?</div>
         </video>
-        <div>Ready for therapy?</div>
+        <div className="text-white text-6xl text drop-shadow-2xl NavHeader ">
+          Sophia Buu <br />
+          <span className="text-3xl playfair">
+            -To live is to suffer, to survive is to find some meaning in the
+            suffering.
+          </span>
+        </div>
       </div>
     </div>
   );

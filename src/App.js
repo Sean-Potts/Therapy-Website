@@ -11,7 +11,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero className="h-[30hv]" />
+      {/* <Hero className="h-[30hv]" /> */}
+      <Hero />
       <About />
       <Experience />
       <Papers />

@@ -14,6 +14,28 @@
   background: #9a9777;
 }
 
+.swatch_1 {
+  background: #afa49d;
+}
+.swatch_2 {
+  /* background-color: #c9d6db; */
+  background-color: #d2e0ee;
+  /* sohpias blue */
+}
+.swatch_3 {
+  background-color: #162f20;
+}
+.swatch_4 {
+  background: #957e6a;
+}
+.swatch_5 {
+  background: #555546;
+}
+
+.body {
+  background-color: #ac1212;
+}
+
 /* Text */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -177,15 +199,29 @@
 @media (min-width: 1900px) {
   .containerCon {
     max-width: 1550px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 30px;
+  }
+  .containerCon1 {
+    max-width: 1850px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 30px;
   }
 }
 
 .headerText {
-  font-size: 65px;
+  font-size: 50px;
 }
 
 .bodyText {
-  font-size: 25px;
+  font-size: 24px;
+  word-spacing: 2px;
 }
 
 .textColor {
