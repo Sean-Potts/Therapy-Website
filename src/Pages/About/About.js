@@ -4,6 +4,7 @@ function About() {
   return (
     <div className="bg-[#F1F4F1]">
       <div className="containerCon1 textColor mx-auto">
+        <section id="About"></section>
         {/* <h1 class=" text-center text-5xl playfair2 mb-4 ">About</h1> */}
         <h1 class=" text-center text-5xl playfair2 text-[#131f35] mb-10">
           About

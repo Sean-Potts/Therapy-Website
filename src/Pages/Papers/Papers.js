@@ -3,6 +3,7 @@ import React from "react";
 function Papers() {
   return (
     <div className="containerCon1 mx-auto text-black  lg:mb-20">
+      <section id="Papers"></section>
       <h1 class="text-[#000000]  headerText1 text-center playfair2 mb-20 border-b-2 border-black">
         Papers
       </h1>

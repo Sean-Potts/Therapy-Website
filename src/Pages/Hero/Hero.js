@@ -3,7 +3,7 @@ import "./Hero.css";
 function Hero() {
   return (
     <div className="HeroContainer">
-      <div>
+      <div className="containerCon1">
         <video className="back-video" src="/hero.mp4" loop autoPlay muted>
           {" "}
         </video>

@@ -6,6 +6,7 @@ import React from "react";
 function Contacttest() {
   return (
     <div className="bg-[#F1F4F1] text-black">
+      <section id="Contact"></section>
       <div className="containerCon1 mx-auto">
         <h2 class=" text-4xl tracking-tight font-extrabold playfair2 text-center  mb-14 border-b-2 pb-2  border-black">
           Contact Me

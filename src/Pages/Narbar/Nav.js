@@ -52,7 +52,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`NavContent border-b-[1px] fixed justify-center items-center h-24 w-full z-10 px-4 text-white ${
+      className={`NavContent border-b-[1px] fixed justify-center items-center h-24 w-full z-10 px-10 text-white ${
         scroll > 0 ? "fixed top-0 w-full z-10" : ""
       }`}
     >
@@ -77,10 +77,10 @@ const Navbar = () => {
           <li className=" px-4 rounded-xl cursor-pointer duration-300 ">
             <Link
               className=""
-              activeClass=""
+              activeClass="active"
               smooth
               spy
-              to="About Me"
+              to="About"
               offset={-100}
             >
               About
@@ -92,10 +92,10 @@ const Navbar = () => {
               activeClass="active"
               smooth
               spy
-              to="Services"
+              to="Experience"
               offset={-100}
             >
-              Services
+              Experience
             </Link>
           </li>
           <li className=" px-4 rounded-xl cursor-pointer duration-300 ">
@@ -104,10 +104,10 @@ const Navbar = () => {
               activeClass="active"
               smooth
               spy
-              to="Projects"
-              offset={-100}
+              to="Papers"
+              offset={-150}
             >
-              Projects
+              Papers
             </Link>
           </li>
           <li className=" px-4 rounded-xl cursor-pointer duration-300 ">
@@ -147,21 +147,64 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed md:hidden left-0 top-24 w-[100%] h-full border-b-2 border-r-gray-900 bg-[#f1f4f1] ease-in-out duration-500"
+            ? "fixed md:hidden left-0 top-24 w-[100%] h-full border-b border-r-gray-900 bg-[#f1f4f1] ease-in-out duration-500"
             : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
         }
       >
         {/* Mobile Logo */}
-
-        {/* Mobile Navigation Items */}
-        {navItems.map((item) => (
-          <li
-            key={item.id}
-            className="p-4 border-b   duration-300  cursor-pointer border-gray-600"
+        <li className="p-4 border-b   duration-300  cursor-pointer border-gray-600">
+          <Link
+            className=""
+            activeClass="active"
+            smooth
+            spy
+            to="About"
+            offset={-100}
+            onClick={handleNav}
           >
-            {item.text}
-          </li>
-        ))}
+            About
+          </Link>
+        </li>
+        <li className="p-4 border-b   duration-300  cursor-pointer border-gray-600">
+          <Link
+            className=""
+            activeClass="active"
+            smooth
+            spy
+            to="Experience"
+            offset={-100}
+            onClick={handleNav}
+          >
+            Experience
+          </Link>
+        </li>
+        <li className="p-4 border-b   duration-300  cursor-pointer border-gray-600">
+          <Link
+            className=""
+            activeClass="active"
+            smooth
+            spy
+            to="Papers"
+            offset={-150}
+            onClick={handleNav}
+          >
+            Papers
+          </Link>
+        </li>
+        <li className="p-4 border-b   duration-300  cursor-pointer border-gray-600">
+          <Link
+            className=""
+            activeClass="active"
+            smooth
+            spy
+            to="Contact"
+            offset={-100}
+            onClick={handleNav}
+          >
+            Contact
+          </Link>
+        </li>
+        {/* Mobile Navigation Items */}
       </ul>
     </div>
   );

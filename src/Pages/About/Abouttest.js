@@ -3,6 +3,7 @@ import React from "react";
 function Abouttest() {
   return (
     <div className="bg-[#F1F4F1]">
+      <section id="About"></section>
       <div className="containerCon1 textColor mx-auto">
         {/* <h1 class=" text-center text-5xl playfair2 mb-4 ">About</h1> */}
         <h1 class=" text-center text-5xl playfair2 text-[#131f35] headerText1 mb-10">
