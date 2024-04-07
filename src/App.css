@@ -304,6 +304,7 @@
 @media (min-width: 768px) {
   .containerCon1 {
     max-width: 650px;
+
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 50px;
@@ -355,9 +356,12 @@
 
 @media (min-width: 1024px) {
   .containerCon1 {
+    border: rgb(13, 49, 4);
+    border-style: solid;
+    border-radius: 2px;
     max-width: 900px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 30px;
@@ -369,7 +373,11 @@
     font-size: 25px;
     font-style: italic;
   }
-  */
+  .flexAbout {
+    display: flex;
+    flex-direction: column;
+  }
+
   /* Make 2 grid classes */
   .gridclassPaper {
     display: grid;
@@ -421,7 +429,7 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  .bodyTextAbout {
+  /* .bodyTextAbout {
     color: black;
     font-size: 32px;
     font-family: "Playfair Display";
@@ -429,10 +437,7 @@
     letter-spacing: 2px;
     padding-bottom: 2.5rem;
   }
-  .flexAbout {
-    display: flex;
-    flex-direction: row;
-  }
+
   .aboutImg {
     width: 50%;
     justify-content: flex-end;
@@ -445,9 +450,9 @@
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: left;
-  }
+  } */
   .bodyText {
-    font-size: 20px;
+    font-size: 18px;
     word-spacing: 2px;
   }
   .imgAdler {
@@ -487,6 +492,34 @@
     line-height: 1;
 
     font-size: 20px;
+  }
+  .bodyTextAbout {
+    color: black;
+    font-size: 32px;
+    font-family: "Playfair Display";
+    font-weight: "500";
+    letter-spacing: 2px;
+    padding-bottom: 2.5rem;
+  }
+  .flexAbout {
+    display: flex;
+    flex-direction: row;
+  }
+  .bodyText {
+    font-size: 20px;
+    word-spacing: 2px;
+  }
+  .aboutImg {
+    width: 50%;
+    justify-content: flex-end;
+    display: flex;
+    padding-top: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .aboutText {
+    width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .headerText {
     font-size: 25px;
