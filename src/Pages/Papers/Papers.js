@@ -6,7 +6,7 @@ function Papers() {
       <h1 class="text-[#000000]  headerText1 text-center playfair2 mb-20 border-b-2 border-black">
         Papers
       </h1>
-      <div className="gridclass gap-[5rem] ">
+      <div className="gridclassPaper gap-[5rem] ">
         <div className="bg-[#D2E0EE] flex flex-col rounded-3xl shadow-lg my-4">
           <div className="pt-10 playfair3 textExp">
             The Importance of Adverse Childhood Experiences in Depression and

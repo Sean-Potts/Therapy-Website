@@ -147,7 +147,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed md:hidden left-0 top-24 w-[100%] h-full border-r border-r-gray-900 bg-[#010514] ease-in-out duration-500"
+            ? "fixed md:hidden left-0 top-24 w-[100%] h-full border-b-2 border-r-gray-900 bg-[#f1f4f1] ease-in-out duration-500"
             : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
         }
       >
@@ -157,7 +157,7 @@ const Navbar = () => {
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-4 border-b rounded-xl  duration-300  cursor-pointer border-gray-600"
+            className="p-4 border-b   duration-300  cursor-pointer border-gray-600"
           >
             {item.text}
           </li>

@@ -282,6 +282,10 @@
     display: grid;
     grid-template-columns: repeat(1 minmax(0, 1fr));
   }
+  .gridclassPaper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 1024px) {
@@ -292,6 +296,11 @@
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 30px;
+  }
+  /* Make 2 grid classes */
+  .gridclassPaper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   .gridclass {
     display: grid;
@@ -407,6 +416,10 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .gridclassPaper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 1536px) {
@@ -424,6 +437,11 @@
     display: grid;
     grid-template-columns: repeat(1 minmax(0, 1fr));
   }
+  .gridclassPaper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .headerText {
     font-size: 40px;
   }
@@ -478,6 +496,10 @@
     line-height: 1.25rem;
   }
   .gridclass {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .gridclassPaper {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
