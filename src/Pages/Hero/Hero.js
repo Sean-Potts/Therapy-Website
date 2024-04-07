@@ -7,9 +7,9 @@ function Hero() {
         <video className="back-video" src="/hero.mp4" loop autoPlay muted>
           {" "}
         </video>
-        <div className="text-white text-6xl text drop-shadow-2xl NavHeader ">
+        <div className="text-white heroNameText  drop-shadow-2xl  ">
           Sophia Buu <br />
-          <span className="text-3xl playfair">
+          <span className=" heroQuoteText playfair">
             -To live is to suffer, to survive is to find some meaning in the
             suffering.
           </span>

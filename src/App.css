@@ -174,6 +174,38 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .heroNameText {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+    line-height: 1;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+  }
+  .NavHeader {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+  }
+  .NavUI {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+  }
+  .heroQuoteText {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+    line-height: 1;
+
+    font-size: 20px;
+  }
   .headerText {
     font-size: 30px;
     text-align: center;
@@ -278,6 +310,39 @@
     padding-bottom: 50px;
     border-radius: 30px;
   }
+  .heroNameText {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+    line-height: 1;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+  }
+  .heroQuoteText {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+    line-height: 1;
+
+    font-size: 20px;
+  }
+
+  .NavUI {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+  }
+  .NavHeader {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+  }
   .gridclass {
     display: grid;
     grid-template-columns: repeat(1 minmax(0, 1fr));
@@ -297,6 +362,14 @@
     padding-bottom: 50px;
     border-radius: 30px;
   }
+  .NavUI {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+  }
+  */
   /* Make 2 grid classes */
   .gridclassPaper {
     display: grid;
@@ -397,6 +470,24 @@
     padding-bottom: 50px;
     border-radius: 30px;
   }
+  .heroNameText {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+    line-height: 1;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+  }
+  .heroQuoteText {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+    line-height: 1;
+
+    font-size: 20px;
+  }
   .headerText {
     font-size: 25px;
     text-align: left;
@@ -432,6 +523,24 @@
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 30px;
+  }
+  .heroNameText {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+    line-height: 1;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 70px;
+  }
+  .heroQuoteText {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+
+    line-height: 1;
+
+    font-size: 40px;
   }
   .gridclass {
     display: grid;
