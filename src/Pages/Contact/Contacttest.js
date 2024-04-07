@@ -14,27 +14,27 @@ function Contacttest() {
           Contact Me
         </h2> */}
         <form action="#" class="space-y-8  pb-10">
-          <div className="grid grid-cols-2 space-x-3 text-left">
-            <div className>
+          <div className="flex justify-between space-x-3 text-left">
+            <div className="flex-auto">
               <label for="email" class="block  text-sm font-medium  ">
                 First Name
               </label>
               <input
                 type="email"
                 id="email"
-                class="shadow-sm bg-[#D2E0EE]  border w-10/12 placeholder-gray-600 focus:ring-blue-500 focus:border-blue-500 focus:outline-8 border-black text-black text-sm   block  p-2.5 "
+                class="shadow-sm bg-[#D2E0EE] w-full border  placeholder-gray-600 focus:ring-blue-500 focus:bg-[#dee8f1] focus:border-blue-500 focus:outline-8 border-black text-black text-sm   block  p-2.5 "
                 placeholder=""
                 required
               />
             </div>
-            <div className>
+            <div className="flex-auto pl-10">
               <label for="email" class="block  text-sm font-medium  ">
                 Last Name
               </label>
               <input
                 type="email"
                 id="email"
-                class="shadow-sm bg-[#D2E0EE]  border w-full placeholder-gray-600 focus:ring-blue-500 focus:border-blue-500 focus:outline-8 border-black text-black text-sm   block  p-2.5 "
+                class="shadow-sm bg-[#D2E0EE] w-full border  placeholder-gray-600 focus:ring-blue-500 focus:border-blue-500  focus:bg-[#dee8f1] focus:outline-8 border-black text-black text-sm   block  p-2.5 "
                 placeholder=""
                 required
               />
@@ -47,7 +47,7 @@ function Contacttest() {
             <input
               type="email"
               id="email"
-              class="shadow-sm bg-[#D2E0EE] border w-full placeholder-gray-600 focus:ring-blue-500 focus:border-blue-500 focus:outline-8 border-black text-black text-sm   block  p-2.5 "
+              class="shadow-sm bg-[#D2E0EE] border w-full placeholder-gray-600 focus:ring-blue-500 focus:border-blue-500 focus:bg-[#dee8f1] focus:outline-8 border-black text-black text-sm   block  p-2.5 "
               placeholder=""
               required
             />
@@ -56,14 +56,20 @@ function Contacttest() {
             <label for="email" class="block text-left  text-sm font-medium  ">
               Message
             </label>
-            <input
+            <textarea
               type="email"
               id="email"
-              class="shadow-sm bg-[#D2E0EE] border w-full h-60 placeholder-gray-600 focus:ring-blue-500 focus:border-blue-500 focus:outline-8 border-black text-black text-sm   block  p-2.5 "
+              class="shadow-sm align-top bg-[#D2E0EE] border w-full h-60 placeholder-gray-600 focus:ring-blue-500 focus:bg-[#dee8f1] focus:border-blue-500 focus:outline-8 border-black text-black text-sm   block  p-2.5 "
               placeholder=""
               required
             />
           </div>
+          <button
+            className="bg-[#202020] text-white px-14 py-3 rounded-xl hover:bg-[#333333] hover:grow"
+            onclick="return validateForm()"
+          >
+            Submit
+          </button>
         </form>
       </div>
     </div>
