@@ -3,27 +3,29 @@ import React from "react";
 function About() {
   return (
     <div className="bg-[#F1F4F1]">
+      <section id="About"></section>
       <div className="containerCon1 textColor mx-auto">
-        <section id="About"></section>
         {/* <h1 class=" text-center text-5xl playfair2 mb-4 ">About</h1> */}
-        <h1 class=" text-center text-5xl playfair2 text-[#131f35] mb-10">
+        <h1 class=" text-center text-5xl playfair2 text-[#131f35] headerText1 mb-10">
           About
         </h1>
-        <div class="grid grid-cols-2 gap-4 place-content-center">
-          <div class=" col-span-1 mt-6">
-            {" "}
-            <img src="./sophia.jpg" className="rounded-3xl aboutImage img1 " />
+
+        <div class=" flexAbout items-center justify-center bg-gray-100">
+          <div class="aboutImg">
+            <img
+              src="./sophia.jpg"
+              alt="Your Image"
+              class="max-h-[30rem] object-contain rounded-3xl"
+            />
           </div>
-          <div class="col-span-1 text-left h-full pl-24  pt-20 ">
-            <p class=" bodyTextAbout pb-10">
+          <div class="aboutText">
+            <p class=" bodyTextAbout">
               Hi There! I’m Sophia, Registered Physiotherapist Student at Adler
             </p>
             <p class=" bodyText playfair text-black">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut npming elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim
+              enim ad minim veniam, quis nostrud exercitation ullamco.
             </p>
             <br></br>
             <p class=" bodyText playfair text-black">
@@ -42,9 +44,13 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="flex md:flex md:flex-grow flex-row justify-end pr-[4rem]">
+
+      <div className="flex md:flex md:flex-grow flex-row imgAdler">
         {" "}
-        <img src="./adler.jpeg" className="rounded-full h-32 mb-10 " />
+        <img
+          src="./adler.jpeg"
+          className="rounded-full imgAdlerHeight mb-10 "
+        />
       </div>
     </div>
   );

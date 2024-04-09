@@ -150,9 +150,6 @@
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  border-radius: 2px;
-  border-style: solid;
-  border: red;
 }
 .headerText {
   font-size: 40px;
@@ -362,9 +359,6 @@
 
 @media (min-width: 1024px) {
   .containerCon1 {
-    border: rgb(13, 49, 4);
-    border-style: solid;
-    border-radius: 2px;
     max-width: 900px;
     padding-left: 100px;
     padding-right: 100px;
@@ -554,11 +548,7 @@
 
 @media (min-width: 1536px) {
   .containerCon1 {
-    border: rgb(35, 173, 0);
-    border-style: solid;
-    border-radius: 2px;
     max-width: 1400px;
-
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 30px;
@@ -600,9 +590,6 @@
 
 @media (min-width: 1750px) {
   .containerCon1 {
-    border: blue;
-    border-style: solid;
-    border-radius: 2px;
     max-width: 1600px;
     padding-left: 200px;
     padding-right: 200px;
@@ -622,10 +609,6 @@
     border-radius: 30px;
   }
   .containerCon1 {
-    border: red;
-    border-style: solid;
-    border-radius: 2px;
-    border-width: 2px;
     max-width: 1750px;
     padding-left: 200px;
     padding-right: 200px;
