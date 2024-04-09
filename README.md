@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Therapy Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project can be found at https://seanpotts.ca/](https://therapy-example-page.vercel.app/
+
+It is hosted on Vercel and was Created using React. 
 
 ## Available Scripts
 
