@@ -429,28 +429,6 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
-  /* .bodyTextAbout {
-    color: black;
-    font-size: 32px;
-    font-family: "Playfair Display";
-    font-weight: "500";
-    letter-spacing: 2px;
-    padding-bottom: 2.5rem;
-  }
-
-  .aboutImg {
-    width: 50%;
-    justify-content: flex-end;
-    display: flex;
-    padding-top: 2.5rem;
-    padding-right: 2.5rem;
-  }
-  .aboutText {
-    width: 50%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: left;
-  } */
   .bodyText {
     font-size: 18px;
     word-spacing: 2px;
