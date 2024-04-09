@@ -16,15 +16,14 @@ function About() {
           </div>
           <div class="col-span-1 text-left h-full pl-24  pt-20 ">
             <p class=" bodyTextAbout pb-10">
-              Hi there! I’m Sophia, registered physiotherapist student at adler
+              Hi There! I’m Sophia, Registered Physiotherapist Student at Adler
             </p>
             <p class=" bodyText playfair text-black">
-              The T4 meaning primarily relates to your status as an employee,
-              and The T4 slip enlists information about the employees’ income
-              from sources other than work so the organisation may be able to
-              account to the Canadian Revenue Agency. As per the norms of the
-              CRA, a company will deduct taxes from their regular employees if
-              their income exceeds a stipulated bracket.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut npming elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim
             </p>
             <br></br>
             <p class=" bodyText playfair text-black">

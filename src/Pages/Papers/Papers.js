@@ -21,7 +21,18 @@ function Papers() {
             <br /> Sunday July 18th, 2021
           </div>
           <div className="py-5">
-            <button className="button-1 playfair2">View</button>
+            <button
+              className="button-1 playfair2"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(
+                  "./The_Importance_of_Adverse_Childhood_Experiences_in_Depression_and_Recommended_Psychotherapy_.pdf",
+                  "_blank"
+                );
+              }}
+            >
+              View
+            </button>
           </div>
         </div>
         <div className="bg-[#D2E0EE] flex flex-col rounded-3xl shadow-lg my-4">
@@ -37,7 +48,18 @@ function Papers() {
             <br /> Sunday July 18th, 2021
           </div>
           <div className="py-5">
-            <button className="button-1 playfair2">View</button>
+            <button
+              className="button-1 playfair2"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(
+                  "./The_Importance_of_Adverse_Childhood_Experiences_in_Depression_and_Recommended_Psychotherapy_.pdf",
+                  "_blank"
+                );
+              }}
+            >
+              View
+            </button>
           </div>
         </div>
         <div className="bg-[#D2E0EE] flex flex-col rounded-3xl shadow-lg my-4">
@@ -53,7 +75,18 @@ function Papers() {
             <br /> Sunday July 18th, 2021
           </div>
           <div className="py-5">
-            <button className="button-1 playfair2">View</button>
+            <button
+              className="button-1 playfair2"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(
+                  "./The_Importance_of_Adverse_Childhood_Experiences_in_Depression_and_Recommended_Psychotherapy_.pdf",
+                  "_blank"
+                );
+              }}
+            >
+              View
+            </button>
           </div>
         </div>
         <div className="bg-[#D2E0EE] flex flex-col rounded-3xl shadow-lg my-4">
@@ -69,7 +102,18 @@ function Papers() {
             <br /> Sunday July 18th, 2021
           </div>
           <div className="py-5">
-            <button className="button-1 playfair2">View</button>
+            <button
+              className="button-1 playfair2"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(
+                  "./The_Importance_of_Adverse_Childhood_Experiences_in_Depression_and_Recommended_Psychotherapy_.pdf",
+                  "_blank"
+                );
+              }}
+            >
+              View
+            </button>
           </div>
         </div>
       </div>
