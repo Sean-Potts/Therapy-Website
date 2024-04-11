@@ -24,7 +24,7 @@ function Experience() {
                     Physiotherapist Adler Student
                   </div>
                   <div class="h-full flex justify-start playfair textDate items-start leading-snug">
-                    November 2023
+                    November 2024
                   </div>
                 </div>
               </div>
